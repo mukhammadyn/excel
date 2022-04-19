@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["console","log"],"mappings":";;AAAA;;AACA;;AACA;;AACA;;AAEAA,OAAO,CAACC,GAAR,CAAY,cAAZ","sourcesContent":["import 'core-js/stable'\nimport 'regenerator-runtime/runtime'\nimport './assets/scss/index.scss'\nimport './module'\n\nconsole.log('Hello world!')"],"file":"index.js"}
