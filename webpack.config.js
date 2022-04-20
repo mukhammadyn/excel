@@ -57,7 +57,7 @@ module.exports = (env, argv) => {
       hot: true,
       watchFiles: './',
     },
-    devtool: isDev ? 'source-map' : false,
+    devtool: isDev ? 'inline-source-map' : false,
     plugins: plugins(),
     module: {
       rules: [
