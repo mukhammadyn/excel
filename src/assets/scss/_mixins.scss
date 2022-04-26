@@ -48,9 +48,12 @@
   padding: 3px;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
+  background-color: transparent;
+  border: none;
 
   & i {
     font-size: 18px;
+    pointer-events: none;
   }
 
   &:active, &.active {
